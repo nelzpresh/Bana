@@ -1,0 +1,194 @@
+* {
+padding: 0;
+margin: 0;
+}
+
+body {
+text-align: center;
+background-color: black;
+color: khaki;
+}
+
+header {
+height: 5.6rem;
+background-color: aqua;
+width: 100%;
+display: flex;
+position: fixed;
+z-index: 5;
+border-bottom: 1.5px solid seashell;
+}
+
+.logo {
+display: flex;
+padding: 1rem;
+}
+
+.logo img {
+height: 4rem;
+padding-bottom: 1.5rem;
+}
+
+header h1 {
+position: relative;
+top: 10px;
+color: maroon;
+font-size:2em;
+font-family: 'Diplomata', cursive;
+}
+
+.bana,
+.fact,
+.hero,
+.camel,
+.image,
+.inspire {
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+width: 100%;
+height: 50rem;
+}
+
+.bana h1 {
+padding-top: 17rem;
+text-transform: uppercase;
+font-size: 2.5rem;
+color: darkturquoise;
+font-family: 'Libre Baskerville', serif;
+}
+
+.bana {
+position: relative;
+top: 5.5rem;
+background-image: url('./images/205816e2d1b7e7e.jpg');
+text-align: center;
+}
+
+.fact {
+background-image: url('./images/images.jpeg');
+margin-top: 1rem;
+}
+
+.hero {
+background-image: url('./images/e7ef13259d0cd0b3f91eab430bf22dc5.jpg');
+margin-top: 1rem;
+}
+
+.hero h3 {
+color: papayawhip;
+}
+
+.camel {
+background-image: url('./images/images (6).jpeg');
+margin-top: 1rem;
+}
+
+.image {
+background-image: url('./images/7b03967c2ee780e2116ba2b914023cf4-700.jpg');
+margin-top: 1rem;
+}
+
+.inspire {
+background-image: url('./images/man-camel.jpg');
+margin-top: 1rem;
+}
+
+
+.fact img,
+.hero img,
+.camel img,
+.image img,
+.inspire img {
+width: 300px;
+height: 170px;
+padding: 12rem 3rem 2rem 3rem;
+margin: 0 auto;
+}
+
+h3 {
+line-height: 1.6;
+font-weight: bold;
+font-size: 1.25rem;
+color: darkslategrey;
+font-family: 'Kurale', serif;
+}
+
+.main {
+padding-top: 2rem;
+text-transform: capitalize;
+list-style: 1.3;
+}
+
+.main h2 {
+font-size: 2rem;
+font-weight: bold;
+font-family: 'Londrina Shadow', cursive;
+}
+
+.main h4 {
+font-size: 1.5rem;
+padding-top: 0.87rem;
+font-weight: bold;
+font-family: 'Berkshire Swash', cursive;
+}
+
+.main h6 {
+font-size: 1rem;
+padding-top: 0.856rem;
+font-weight: bold;
+opacity: 0.65;
+padding-bottom: 2rem;
+font-family: 'Lobster Two', cursive;
+}
+
+.dream {
+display: inline-block;
+min-width: 300px;
+max-width: 700px;
+margin: 2rem auto;
+line-height: 1.4;
+border-radius: 8px;
+}
+
+.about {
+width: 260px;
+padding-bottom: 1.3rem;
+position: relative;
+left: 12.7rem;
+font-family: 'ZCOOL XiaoWei', serif;
+font-size: 1.1rem;
+}
+
+.bucks {
+width: 270px;
+padding-top: 1rem;
+position: relative;
+left: 12rem;
+font-family: 'ZCOOL XiaoWei', serif;
+font-size: 1.1rem;
+}
+
+.image h3 {
+color: snow;
+padding-top: 2rem;
+}
+
+.inspire h3 {
+color: lightcoral;
+position: relative;
+top: 30px;
+}
+
+.ending {
+padding-top: 1.5rem;
+display: inline-block;
+padding-bottom: 2rem;
+}
+
+footer {
+font-size: 1.1rem;
+border-top: 1.5px solid black;
+padding: 1.5rem;
+font-family: 'Elsie Swash Caps', cursive;
+}
